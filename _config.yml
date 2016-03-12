@@ -11,7 +11,7 @@ keywords: "Hexo, NexT"
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss:
+rss: /atom.xml
 
 # Specify the date when the site was setup
 #since: 2015
@@ -27,11 +27,12 @@ rss:
 # Remove leading slashes ( "/archives" -> "archives" )
 menu:
   home: /
-  #categories: /categories
-  #about: /about
+  categories: /categories
+  about: /about
   archives: /archives
   tags: /tags
-  #commonweal: /404.html
+  commonweal: /404.html
+#  rss: /atom.xml
 
 
 # Enable/Disable menu icons.
@@ -49,7 +50,7 @@ menu_icons:
   archives: archive
   commonweal: heartbeat
 
-
+icon-font: foo
 
 
 # ---------------------------------------------------------------
@@ -69,24 +70,42 @@ scheme: Muse
 
 
 # Social links
-# social:
-  #GitHub:
-  #Others:
+social:
+  github: https://github.com/shadow000902    ## e.g. shadow000902 for https://github.com/shadow000902
+  weibo: http://weibo.com/1716962871     ## e.g. shadow000902 or 1716962871 for http://weibo.com/1716962871
+#  weibo_verifier: b3593ceb    ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
+#  tsina: 1716962871     ## e.g. 1716962871  Your weibo ID,It will be used in share button.
+  douban: https://www.douban.com/people/13880651    ## e.g. 13880651 or your id for https://www.douban.com/people/13880651
+  zhihu: http://www.zhihu.com/people/shadow000902     ## e.g. shadow000902  for http://www.zhihu.com/people/shadow000902
+  email: shadow000902@gmail.com     ## e.g. shadow000902@gmail.com
+  twitter: https://twitter.com/shadow000902   ## e.g. shadow000902 for https://twitter.com/shadow000902
+  facebook: https://facebook.com/shadow000902  ## e.g. shadow000902 for https://facebook.com/shadow000902
+  linkedin: https://www.linkedin.com/in/shadow000902  ## e.g. shadow000902 for https://www.linkedin.com/in/shadow000902
+  google_plus: https://plus.google.com/u/0/+Taoyi   ## e.g. "111190881341800841449" for https://plus.google.com/u/0/+Taoyi, the "" is needed!
+  stackoverflow: http://stackoverflow.com/users/4210385/shadow ## e.g. 4210385 for http://stackoverflow.com/users/4210385/shadow
+ ## if you set them, the corresponding  share button will show on the footer
 
 # Social Icons
 social_icons:
   enable: true
   # Icon Mappings
-  GitHub: github
-  Twitter: twitter
-  Weibo: weibo
-
+  gitHub: github
+  twitter: twitter
+  weibo: weibo
+  email: email
+  facebook: facebook
+  jianshu: jianshu
+  zhihu: zhihu
+  douban: douban
+  linkedin: linkedin
+  google_plus: google_plus
+  stackoverflow: stackoverflow
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
 # default : /images/default_avatar.jpg
-#avatar:
+avatar: /images/avatar.jpg
 
 
 # TOC in the Sidebar
@@ -138,7 +157,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night
 
 # Automatically scroll page to section which is under <!-- more --> mark.
 scroll_to_more: true
@@ -152,23 +171,22 @@ auto_excerpt:
 use_font_lato: true
 
 
-
 # ---------------------------------------------------------------
 # Third Party Services Settings
 # ---------------------------------------------------------------
 
 # MathJax Support
-mathjax:
+mathjax: true
 
 
 # Swiftype Search API Key
-#swiftype_key:
+swiftype_key: uLoycENLtvzzSqNPxVW_
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: b2e7edb34a402c6fa45e71e2a2456518
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+duoshuo_shortname: shadow
 
 # Disqus
 #disqus_shortname:
@@ -176,15 +194,16 @@ mathjax:
 # Baidu Share
 # Available value:
 #    button | slide
-#baidushare:
+baidushare: true
 ##  type: button
 
 # Share
-#jiathis:
+jiathis: true
 #add_this_id:
 
 # Share
-#duoshuo_share: true
+duoshuo_share: true
+
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
