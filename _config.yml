@@ -95,11 +95,9 @@ social_icons:
   email: email
   facebook: facebook
   jianshu: jianshu
-  zhihu: zhihu
-  douban: douban
   linkedin: linkedin
-  google_plus: google_plus
-  stackoverflow: stackoverflow
+  google-plus: google-plus
+  stack-overflow: stack-overflow
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
