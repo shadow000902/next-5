@@ -31,7 +31,7 @@ menu:
   about: /about
   archives: /archives
   tags: /tags
-  commonweal: /404.html
+#  commonweal: /404.html
 #  rss: /atom.xml
 
 
@@ -89,7 +89,7 @@ social:
 social_icons:
   enable: true
   # Icon Mappings
-  gitHub: github
+  github: github
   twitter: twitter
   weibo: weibo
   email: email
