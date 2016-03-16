@@ -81,8 +81,8 @@ social:
   twitter: https://twitter.com/shadow000902   ## e.g. shadow000902 for https://twitter.com/shadow000902
   facebook: https://facebook.com/shadow000902  ## e.g. shadow000902 for https://facebook.com/shadow000902
   linkedin: https://www.linkedin.com/in/shadow000902  ## e.g. shadow000902 for https://www.linkedin.com/in/shadow000902
-  google_plus: https://plus.google.com/u/0/+Taoyi   ## e.g. "111190881341800841449" for https://plus.google.com/u/0/+Taoyi, the "" is needed!
-  stackoverflow: http://stackoverflow.com/users/4210385/shadow ## e.g. 4210385 for http://stackoverflow.com/users/4210385/shadow
+  google-plus: https://plus.google.com/u/0/+Taoyi   ## e.g.  for https://plus.google.com/u/0/+Taoyi, the "" is needed!
+  stack-overflow: http://stackoverflow.com/users/4210385/shadow ## e.g. 4210385 for http://stackoverflow.com/users/4210385/shadow
  ## if you set them, the corresponding  share button will show on the footer
 
 # Social Icons
