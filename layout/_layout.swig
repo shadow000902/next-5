@@ -71,17 +71,12 @@
   {% include '_scripts/third-party/mathjax.swig' %}
   {% include '_scripts/third-party/lean-analytics.swig' %}
   {% include '_scripts/baidu-push.swig' %}
-<<<<<<< HEAD
-<<<<<<< HEAD
   {% if theme.leancloud_visitors.enable %}
     {% include '_scripts/third-party/lean-analytics.swig' %}
   {% endif %}
 =======
   {% include '_scripts/third-party/schedule.swig' %}
->>>>>>> iissnan/master
-=======
   {% include '_components/algolia-search/assets.swig' %}
->>>>>>> iissnan/master
 
 </body>
 </html>

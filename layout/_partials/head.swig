@@ -1,11 +1,8 @@
 <meta charset="UTF-8"/>
-<<<<<<< HEAD
 <meta name="google-site-verification" content="icHwxZMwWfYpn47DgI1Za6CeqXvoEj-7y1sEoJvdVSo" />
 <meta name="baidu-site-verification" content="e5lNxffZa8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-=======
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
->>>>>>> iissnan/master
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
 
