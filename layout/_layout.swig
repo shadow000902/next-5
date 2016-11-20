@@ -74,7 +74,6 @@
   {% if theme.leancloud_visitors.enable %}
     {% include '_scripts/third-party/lean-analytics.swig' %}
   {% endif %}
-=======
   {% include '_scripts/third-party/schedule.swig' %}
   {% include '_components/algolia-search/assets.swig' %}
 
