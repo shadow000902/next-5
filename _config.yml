@@ -36,9 +36,9 @@ menu:
   about: /about
   archives: /archives
   tags: /tags
-  commonweal: /404.html
-  rss: /atom.xml
-  schedule: /schedule
+#  commonweal: /404.html
+#  rss: /atom.xml
+#  schedule: /schedule
 
 
 # Enable/Disable menu icons.
