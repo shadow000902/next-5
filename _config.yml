@@ -241,8 +241,7 @@ links_layout: block
 # in site  directory(source/uploads): /uploads/avatar.jpg
 avatar: /images/avatar.jpg
 
-
-# Table Of Ccontents in the Sidebar
+# Table Of Contents in the Sidebar
 toc:
   enable: true
 
@@ -450,11 +449,6 @@ gitment:
 # Baidu Share
 # Available value:
 #    button | slide
-baidushare: false
-##  type: button
-
-# Share
-jiathis: false
 # Warning: Baidu Share does not support https.
 #baidushare:
 ##  type: button
@@ -844,4 +838,4 @@ js: js
 images: images
 
 # Theme version
-version: 5.1.3
+version: 5.1.4
